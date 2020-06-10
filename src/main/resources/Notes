@@ -1,0 +1,28 @@
+Notes :
+
+1. More than one fragment with the name [spring_web] was found. This is not legal with relative ordering 
+clean //clean install always to remove older versions of jar added by pom.xml
+
+
+change the project name completely
+
+1. replace the package name in all file by Ctrl+H then Replace
+2. change the name of project in pom.xml 
+3. change the folders with this name 
+4 re import the project 
+
+
+Spring Rest Client Program
+
+In signup method we use to send the user name to client with Async request , we can use
+	// asynchronous method ++ we can user RabbitMQ/Apache Kafka also here or any message queue
+
+Login Functionality
+UserDetailsService we provide implementation for DB but we can use LDAP implementation also here
+
+Use KeyStore to generate public private key pair
+generate KeyStore using keytool provided by JDK 
+   cmd : 
+   	keytool -genkey -alias springblog -keylog RSA -keystore springblog.jks --keysize 2048
+ 
+ after this cmd it asks for password and some other settings and provide another cmd to generate KeyStore
