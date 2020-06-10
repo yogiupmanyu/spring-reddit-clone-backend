@@ -1,6 +1,6 @@
 package com.practice.springredditclone.mapper;
 
-import org.mapstruct.InheritInverseConfiguration;
+
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
